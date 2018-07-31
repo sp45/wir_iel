@@ -1,4 +1,5 @@
 const discord = require("discord.js");
+const commando = require("discord.js-commando");
 const translate = require("google-translate-api");
 const cool = require("cool-ascii-faces");
 const request = require("request");
@@ -6,8 +7,9 @@ const figlet = require("figlet");
 const zalgo = require("to-zalgo");
 const tinycolor = require("tinycolor2");
 const is = require("is-thirteen");
-const client = new discord.Client({
-	autoReconnect: true
+const client = new Commando.Client({
+	autoReconnect: true,
+	owner: "175877241517899776"
 });
 const talkedRecently = new Set();
 var talkedTimestamp = {};
