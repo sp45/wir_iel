@@ -1,31 +1,32 @@
-<img src="https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg" width="100%">
+<img src="https://forthebadge.com/images/badges/powered-by-electricity.svg" width="50%">
 
-# ich_iel Roboter
+# wir_iel
+A Discord bot
 
-Bot für den ich_iel Discordserver, jetzt mit 200% mehr Insidern, die sonst sowieso keiner kapiert.
-
-## Zu Server hinzufügen
+## Add to Server
 
 <details><summary>Invite</summary>
 <p>
 
-https://discordapp.com/api/oauth2/authorize?client_id=405408491969314826&permissions=85056&scope=bot
+```css
+soon
+```
 
 </p>
 </details>
 
-## Selber laufen lassen
+## Self-hostingt
 
-<details><summary>Manuell</summary>
+<details><summary>Manually</summary>
 <p>
 
 ```
-git clone https://github.com/TheLastZombie/ich_iel
-cd ich_iel
+git clone https://github.com/sp45/wir_iel
+cd wir_iel
 npm install
 ```
 
-Jetzt in `ich_iel.js` die Umgebungsvariablen `PREFIX` (gewünschter Prefix), `TOKEN` (Discord-Bot-Token), `GLOT_ID` (ID eines glot.io-Pastes) und `GLOT_TK` (glot.io-API-Token) einsetzen.
+Now, in `wir_iel.js` set the Variables `PREFIX` (Prefix, duh), `TOKEN` (Discord Bot Token), `GLOT_ID` (A glot.io-Paste ID) and `GLOT_TK` (glot.io API Token).
 
 ```
 npm start
@@ -38,15 +39,15 @@ npm start
 <p>
 
 ```
-git clone https://github.com/TheLastZombie/ich_iel
-cd ich_iel
+git clone https://github.com/TheLastZombie/wir_iel
+cd wir_iel
 npm install
 ```
 
-Jetzt in `.env` die Umgebungsvariablen `PREFIX` (gewünschter Prefix), `TOKEN` (Discord-Bot-Token), `GLOT_ID` (ID eines glot.io-Pastes) und `GLOT_TK` (glot.io-API-Token) einsetzen.
+Now, in `.env` set the Variables `PREFIX` (Prefix, duh), `TOKEN` (Discord Bot Token), `GLOT_ID` (A glot.io-Paste ID) and `GLOT_TK` (glot.io API Token).
 
 ```
-node -r dotenv/config ich_iel.js
+node -r dotenv/config wir_iel.js
 ```
 
 </p>
@@ -56,12 +57,11 @@ node -r dotenv/config ich_iel.js
 <p>
 
 ```
-git clone https://github.com/TheLastZombie/ich_iel
-cd ich_iel
+git clone https://github.com/TheLastZombie/wir_iel
+cd wir_iel
 npm install
 ```
-
-Jetzt in `.env` die Umgebungsvariablen `PREFIX` (gewünschter Prefix), `TOKEN` (Discord-Bot-Token), `GLOT_ID` (ID eines glot.io-Pastes) und `GLOT_TK` (glot.io-API-Token) einsetzen.
+Now, in `.env` set the Variables `PREFIX` (Prefix, duh), `TOKEN` (Discord Bot Token), `GLOT_ID` (A glot.io-Paste ID) and `GLOT_TK` (glot.io API Token).
 
 ```
 heroku local
