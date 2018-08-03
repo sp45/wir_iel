@@ -39,7 +39,7 @@ npm start
 <p>
 
 ```
-git clone https://github.com/TheLastZombie/wir_iel
+git clone https://github.com/sp45/wir_iel
 cd wir_iel
 npm install
 ```
@@ -57,7 +57,7 @@ node -r dotenv/config wir_iel.js
 <p>
 
 ```
-git clone https://github.com/TheLastZombie/wir_iel
+git clone https://github.com/sp45/wir_iel
 cd wir_iel
 npm install
 ```
