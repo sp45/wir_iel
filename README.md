@@ -15,7 +15,7 @@ soon
 </p>
 </details>
 
-## Self-hostingt
+## Self-hosting
 
 <details><summary>Manually</summary>
 <p>
